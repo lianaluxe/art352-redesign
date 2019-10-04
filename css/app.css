@@ -1,0 +1,95 @@
+/* ///// HEADINGS ///// */
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  color: rgb(50, 50, 50);
+}
+h1, h2 {
+  font-family: 'Knewave', cursive;
+}
+h3, h4, h5 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+  color: rgb(50, 50, 50);
+}
+h1 {
+  margin-top: 10px;
+  line-height: 1em;
+  font-size: 2em;
+  color: rgb(255, 255, 255);
+}
+h1.small {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 1.2em;
+  color: rgb(255, 255, 255);
+}
+h2 {
+  font-size: 3em;
+}
+h3 {
+  font-size: 2.5em;
+}
+p, label, li {
+  line-height: 1.8em;
+  font-size: 1.3em;
+  color: rgb(80, 80, 80);
+}
+figcaption {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 500;
+}
+a:link, a:visited {
+  color: rgb(50, 50, 50);
+}
+a:hover {
+  text-decoration: underline;
+}
+/* ///// NAV STYLES ///// */
+.header {
+  background-color: rgb(50,50,50);
+}
+nav {
+  text-align: center;
+  margin: 10px 0 0 0;
+  padding-top: 14px;
+}
+nav li {
+  display: inline;
+  font-size: 1em;
+}
+nav a:link, nav a:visited {
+  font-family: 'Knewave', sans-serif;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1.4em;
+  padding: 4px 18px;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+nav a.current {
+  text-decoration: underline;
+}
+
+a img {
+  opacity: 1;
+}
+a:hover img {
+  opacity: 0.65;
+}
+/* /////CUSTOM CLASSES///// */
+.socialmedia {
+  margin: 16px 0 0 0;
+  display: inline;
+}
+.order {
+  background-color: rgb(80,80,80);
+}
+/* /////MODIFIED ZURB CLASSES///// */
+.title-bar {
+  background-color: rgb(50,50,50);
+  font-family: 'Knewave', cursive;
+  font-size: 1.6em;
+}
