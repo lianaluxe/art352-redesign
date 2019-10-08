@@ -87,6 +87,11 @@ a:hover img {
 .order {
   background-color: rgb(80,80,80);
 }
+/* CUSTOM MENU CLASSES */
+.pizzamenu {
+  padding: 20px;
+  float: left;
+}
 /* /////MODIFIED ZURB CLASSES///// */
 .title-bar {
   background-color: rgb(50,50,50);
