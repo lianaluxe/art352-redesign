@@ -14,8 +14,53 @@
 </head>
 
 <body>
+<div class="show-for-small-only">
+  <div class="title-bar" data-responsive-toggle="example-animated-menu">
+    <button class="menu-icon" type="button" data-toggle></button>
+    <div class="title-bar-title">Zachary's Chicago Pizza</div>
+  </div>
 
-  <div data-interchange="[partials/header-small.html, small], [partials/header-large.html, medium], [partials/header-large.html, large]"></div>
+  <div class="top-bar" id="example-animated-menu" data-animate="hinge-in-from-top hinge-out-from-top">
+    <div class="top-bar-left">
+      <ul class="dropdown menu" data-dropdown-menu>
+        <li class="menu-text">Zachary's Chicago Pizza</li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="order.html">Order</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="hide-for-small-only">
+  <div class="header">
+    <div class="grid-container" >
+      <header class="grid-x grid-padding-x">
+        <section class="cell medium-3 large-3">
+          <a href="index.html"><h1>Zachary's</h1>
+          <h1 class="small">Chicago Pizza</h1></a>
+        </section>
+        <section class="cell auto"></section>
+        <section class="cell medium-5 large-4">
+          <nav>
+            <ul>
+              <li><a href="about.html">About</a></li>
+              <li><a href="menu.html">Menu</a></li>
+              <li><a href="order.html" class="order">Order</a></li>
+            </ul>
+          </nav>
+        </section>
+        <section class="cell medium-3 large-2">
+          <img src="img/facebook.png" alt="" class="socialmedia">
+          <img src="img/twitter.png" alt="" class="socialmedia">
+          <img src="img/instagram.png" alt="" class="socialmedia">
+        </section>
+      </header>
+    </div>
+  </div>
+</div>
+
+  <!-- <div data-interchange="[partials/header-small.html, small], [partials/header-large.html, medium], [partials/header-large.html, large]"></div> -->
 <!-- ///End of header//// -->
 
 
