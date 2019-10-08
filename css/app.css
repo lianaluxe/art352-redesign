@@ -94,10 +94,14 @@ a:hover img {
 }
 h3.menu-h3 {
   font-size: 1.5em;
+  padding-top: 5px;
 }
 /* /////MODIFIED ZURB CLASSES///// */
 .title-bar {
   background-color: rgb(50,50,50);
   font-family: 'Knewave', cursive;
   font-size: 1.6em;
+}
+.tabs {
+  font-size: 2em;
 }
