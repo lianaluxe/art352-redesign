@@ -92,6 +92,9 @@ a:hover img {
   padding: 20px;
   float: left;
 }
+h3.menu-h3 {
+  font-size: 2em;
+}
 /* /////MODIFIED ZURB CLASSES///// */
 .title-bar {
   background-color: rgb(50,50,50);

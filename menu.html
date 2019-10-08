@@ -14,74 +14,124 @@
 </head>
 
 <body>
+  <div class="show-for-small-only">
+    <div class="title-bar" data-responsive-toggle="example-animated-menu">
+      <button class="menu-icon" type="button" data-toggle></button>
+      <div class="title-bar-title">Zachary's Chicago Pizza</div>
+    </div>
 
-  <div data-interchange="[partials/header-small.html, small], [partials/header-large.html, medium], [partials/header-large.html, large]"></div>
+    <div class="top-bar" id="example-animated-menu" data-animate="hinge-in-from-top hinge-out-from-top">
+      <div class="top-bar-left">
+        <ul class="dropdown menu" data-dropdown-menu>
+          <li class="menu-text">Zachary's Chicago Pizza</li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="order.html">Order</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="hide-for-small-only">
+    <div class="header">
+      <div class="grid-container" >
+        <header class="grid-x grid-padding-x">
+          <section class="cell medium-3 large-3">
+            <a href="index.html"><h1>Zachary's</h1>
+            <h1 class="small">Chicago Pizza</h1></a>
+          </section>
+          <section class="cell auto"></section>
+          <section class="cell medium-5 large-4">
+            <nav>
+              <ul>
+                <li><a href="about.html">About</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="order.html" class="order">Order</a></li>
+              </ul>
+            </nav>
+          </section>
+          <section class="cell medium-3 large-2">
+            <img src="img/facebook.png" alt="" class="socialmedia">
+            <img src="img/twitter.png" alt="" class="socialmedia">
+            <img src="img/instagram.png" alt="" class="socialmedia">
+          </section>
+        </header>
+      </div>
+    </div>
+  </div>
+  <!-- <div data-interchange="[partials/header-small.html, small], [partials/header-large.html, medium], [partials/header-large.html, large]"></div> -->
   <!-- ///End of header//// -->
 
 
   <div class="grid-container fluid">
     <div class="grid-x">
-      <div class="cell small-12">
-        <p>Hello</p>
+      <div class="cell small-6 medium-3">
         <div class="pizzamenu">
           <img src="https://placehold.it/300x300/999?text=Pizza-1" alt="Space">
-          <h3>Pizza 1</h3>
+          <h3 class="menu-h3">Pizza 1</h3>
           <p>Pizza 1</p>
         </div>
         <div class="pizzamenu">
           <img src="https://placehold.it/300x300/999?text=Pizza-2" alt="Space">
-          <h3>Pizza 2</h3>
+          <h3 class="menu-h3">Pizza 2</h3>
           <p>Pizza 2</p>
         </div>
         <div class="pizzamenu">
           <img src="https://placehold.it/300x300/999?text=Pizza-3" alt="Space">
-          <h3>pizza 3</h3>
+          <h3 class="menu-h3">pizza 3</h3>
           <p>Pizza 3</p>
         </div>
+        </div>
+        <div class="cell small-6 medium-3">
         <div class="pizzamenu">
           <img src="https://placehold.it/300x300/999?text=Pizza-4" alt="Space">
-          <h3>Pizza 4</h3>
+          <h3 class="menu-h3">Pizza 4</h3>
           <p>Pizza 4</p>
         </div>
         <div class="pizzamenu">
           <img src="https://placehold.it/300x300/999?text=Pizza-5" alt="Space">
-          <h3>Pizza 5</h3>
+          <h3 class="menu-h3">Pizza 5</h3>
           <p>Pizza 5</p>
         </div>
         <div class="pizzamenu">
           <img src="https://placehold.it/300x300/999?text=Pizza-6" alt="Space">
-          <h3>pizza 6</h3>
+          <h3 class="menu-h3">pizza 6</h3>
           <p>Pizza 6</p>
         </div>
+        </div>
+        <div class="cell small-6 medium-3">
         <div class="pizzamenu">
           <img src="https://placehold.it/300x300/999?text=Pizza-7" alt="Space">
-          <h3>Pizza 7</h3>
+          <h3 class="menu-h3">Pizza 7</h3>
           <p>Pizza 7</p>
         </div>
         <div class="pizzamenu">
           <img src="https://placehold.it/300x300/999?text=Pizza-8" alt="Space">
-          <h3>Pizza 8</h3>
+          <h3 class="menu-h3">Pizza 8</h3>
           <p>Pizza 8</p>
         </div>
         <div class="pizzamenu">
           <img src="https://placehold.it/300x300/999?text=Pizza-9" alt="Space">
-          <h3>pizza 9</h3>
+          <h3 class="menu-h3">pizza 9</h3>
           <p>Pizza 9</p>
         </div>
+        </div>
+        <div class="cell small-6 medium-3">
         <div class="pizzamenu">
           <img src="https://placehold.it/300x300/999?text=Pizza-10" alt="Space">
-          <h3>Pizza 10</h3>
+          <h3 class="menu-h3">Pizza 10</h3>
           <p>Pizza 10</p>
         </div>
         <div class="pizzamenu">
           <img src="https://placehold.it/300x300/999?text=Pizza-11" alt="Space">
-          <h3>Pizza 11</h3>
+          <h3 class="menu-h3">Pizza 11</h3>
           <p>Pizza 11</p>
         </div>
         <div class="pizzamenu">
           <img src="https://placehold.it/300x300/999?text=Pizza-12" alt="Space">
-          <h3>pizza 12</h3>
+          <h3 class="menu-h3">pizza 12</h3>
           <p>Pizza 12</p>
+        </div>
         </div>
       </div>
     </div>
