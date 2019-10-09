@@ -2,7 +2,6 @@
 body {
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 300;
-  color: #ffffff;
   background-color: #FEF2E4;
 }
 h1, h2 {
@@ -159,8 +158,6 @@ hr {
   font-size: 1.6em;
 }
 
-h2.about {
-  color: yellow;
-  margin: auto;
-  width: 50%;
+.h2-about {
+  text-align: center;
 }
