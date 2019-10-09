@@ -47,7 +47,7 @@ a:hover {
 }
 /* ///// NAV STYLES ///// */
 .header {
-  background-color: #B51D0A;
+  background-color: #94241e;
 }
 nav {
   text-align: center;
@@ -92,7 +92,7 @@ a:hover img {
   background-color: rgb(200,200,200);
 }
 .footer {
-  background-color: rgb(50,50,50);
+  background-color: #94241e;
 }
 .footer p {
   text-align: center;
