@@ -175,3 +175,8 @@ hr {
 .h2-about {
   text-align: center;
 }
+
+.p-about {
+  font-family: 'lato';
+  font-size: 30px;
+}
