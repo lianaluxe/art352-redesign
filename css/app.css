@@ -87,6 +87,9 @@ a:hover img {
 .order {
   background-color: rgb(80,80,80);
 }
+.quotes {
+  background-color: rgb(200,200,200);
+}
 /* CUSTOM MENU CLASSES */
 .pizzamenu {
   padding: 20px;
@@ -94,6 +97,10 @@ a:hover img {
 }
 .pizzamenu-p {
   line-height: 30px;
+}
+h2.index-h2 {
+  font-size: 2em;
+  text-align: center;
 }
 h3.pizzaHeader-h3 {
   font-size: 2em;
