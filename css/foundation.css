@@ -5192,7 +5192,7 @@ table.hover:not(.unstriped) tr:nth-of-type(even):hover {
       color: #1468a0;}
     .tabs-title > a:focus, .tabs-title > a[aria-selected='true'] {
       background: #e6e6e6;
-      color: #1779ba;}
+      color: #000000;}
 
 .tabs-content {
   border: 1px solid #e6e6e6;

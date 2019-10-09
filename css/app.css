@@ -103,6 +103,10 @@ a:hover img {
   text-align: center;
   color: rgb(255,255,255);
 }
+.footer nav a:link, .footer nav a:visited {
+  font-family: 'Josefin Sans', sans-serif;
+  text-transform: none;
+}
 /* CUSTOM MENU CLASSES */
 .pizzamenu {
   padding: 20px;
@@ -153,6 +157,12 @@ hr {
     border-width: 1px;
 }
 /* /////MODIFIED ZURB CLASSES///// */
+.tabs-title a:link, a:visited {
+  color: #000000;
+}
+.tabs-title a:hover {
+  color: #000000;
+}
 .orbit-caption {
   text-align: center;
 }
