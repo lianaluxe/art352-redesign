@@ -2,7 +2,6 @@
 body {
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 300;
-  color: #ffffff;
   background-color: #FEF2E4;
 }
 h1, h2 {
@@ -48,7 +47,7 @@ a:hover {
 }
 /* ///// NAV STYLES ///// */
 .header {
-  background-color: #B51D0A;
+  background-color: #94241e;
 }
 nav {
   text-align: center;
@@ -87,13 +86,13 @@ a:hover img {
   display: inline;
 }
 .order {
-  background-color: rgb(80,80,80);
+  border: 2px solid #FFFFFF;
 }
 .quotes {
   background-color: rgb(200,200,200);
 }
 .footer {
-  background-color: rgb(50,50,50);
+  background-color: #94241e;
 }
 .footer p {
   text-align: center;
@@ -163,8 +162,6 @@ hr {
   font-size: 1.6em;
 }
 
-h2.about {
-  color: yellow;
-  margin: auto;
-  width: 50%;
+.h2-about {
+  text-align: center;
 }
