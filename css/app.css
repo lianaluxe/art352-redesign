@@ -47,7 +47,7 @@ a:hover {
 }
 /* ///// NAV STYLES ///// */
 .header {
-  background-color: #94241e;
+  background-color: #6a1a15;
 }
 nav {
   text-align: center;
@@ -89,10 +89,10 @@ a:hover img {
   border: 2px solid #FFFFFF;
 }
 .quotes {
-  background-color: rgb(200,200,200);
+  background-color: rgba(251,151,87,0.4);
 }
 .footer {
-  background-color: #94241e;
+  background-color: #6a1a15;
 }
 .footer p {
   text-align: center;
@@ -157,7 +157,7 @@ hr {
   text-align: center;
 }
 .title-bar {
-  background-color: rgb(50,50,50);
+  background-color: #6a1a15;
   font-family: 'Knewave', cursive;
   font-size: 1.6em;
 }
