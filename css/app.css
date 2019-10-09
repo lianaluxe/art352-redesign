@@ -133,6 +133,10 @@ h3.menuHeader-h3 {
   padding-top: 10px;
   text-align: center;
 }
+p.menuParagraph-pBold {
+  text-align: center;
+  font-weight: bolder;
+}
 p.menuParagraph-p {
   text-align: center;
 }
