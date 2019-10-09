@@ -6,7 +6,7 @@
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Menu page for Zachary's Chicago Pizza, Inc.">
+  <meta name="description" content="Home page for Zachary's Chicago Pizza, Inc.">
   <title>Zachary's Chicago Pizza, Inc.</title>
   <link rel="stylesheet" href="css/foundation.css">
   <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,300i,400,400i,600,600i,700,700i|Knewave&display=swap" rel="stylesheet">
@@ -23,6 +23,7 @@
     <div class="top-bar" id="example-animated-menu" data-animate="hinge-in-from-top hinge-out-from-top">
       <div class="top-bar-left">
         <ul class="dropdown menu" data-dropdown-menu>
+          <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="menu.html">Menu</a></li>
           <li><a href="order.html">Order</a></li>
@@ -42,15 +43,13 @@
             </a>
           </section>
           <section class="cell auto"></section>
-          <section class="cell medium-5 large-4">
-            <nav>
-              <ul>
-                <li><a href="about.html">About</a></li>
-                <li><a href="menu.html">Menu</a></li>
-                <li><a href="order.html" class="order">Order</a></li>
-              </ul>
-            </nav>
-          </section>
+          <nav class="cell medium-5 large-4">
+            <ul>
+              <li><a href="about.html">About</a></li>
+              <li><a href="menu.html">Menu</a></li>
+              <li><a href="order.html" class="order">Order</a></li>
+            </ul>
+          </nav>
           <section class="cell medium-3 large-2">
             <img src="img/facebook.png" alt="" class="socialmedia">
             <img src="img/twitter.png" alt="" class="socialmedia">
@@ -77,7 +76,7 @@
     <!-- TABS MENU CONTENT -->
     <div class="tabs-content" data-tabs-content="example-tabs">
       <!-- TAB 1 STUFFED PIZZA-->
-      <div class="tabs-panel is-active" id="panel1">
+      <div class="tabs-panel is-active" id="panel1" id="stuffed">
         <!-- STUFFED PIZZA MENU CONTENT -->
         <div class="grid-x">
           <div class="cell">
@@ -170,7 +169,7 @@
       </div>
 
       <!-- TAB 2 THIN PIZZA-->
-      <div class="tabs-panel" id="panel2">
+      <div class="tabs-panel" id="panel2" id="thin">
         <!-- THIN PIZZA MENU CONTENT -->
         <div class="grid-x">
           <div class="cell">
@@ -387,7 +386,7 @@
             </div>
           </div>
       <!-- TAB 4 APPETIZERS -->
-      <div class="tabs-panel" id="panel4">
+      <div class="tabs-panel" id="panel4" id="appetizers">
         <!-- SHAREABLES MENU -->
         <div class="grid-x">
           <div class="cell">
@@ -515,12 +514,25 @@
   <!-- END OF FLUID GRID -->
 
   <!-- ///Beginning of footer code to copy into each page/// -->
-  <div class="grid-container">
-    <footer class="grid-x grid-padding-x grid-padding-y">
-      <div class="cell small-12">
-        <p class="copyright">&#169; 2019 Zachary's Chicago Pizza, Inc.</p>
-      </div>
-    </footer>
+  <div class="footer">
+    <div class="grid-container">
+      <footer class="grid-x grid-padding-x grid-padding-y">
+        <div class="cell small-12">
+          <nav>
+            <ul>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Employment</a></li>
+              <li><a href="#">Fundraising</a></li>
+              <li><a href="#">Art</a></li>
+              <li><a href="#">Store</a></li>
+              <li><a href="#">FAQ</a></li>
+            </ul>
+          </nav>
+          <p class="copyright">&#169; 2019 Zachary's Chicago Pizza, Inc.</p>
+        </div>
+      </footer>
+    </div>
   </div>
 
   <script src="js/vendor/jquery.js"></script>
