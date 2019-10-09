@@ -135,6 +135,9 @@ p.menuParagraph-p {
   text-align: center;
 }
 /* /////MODIFIED ZURB CLASSES///// */
+.orbit-caption {
+  text-align: center;
+}
 .title-bar {
   background-color: rgb(50,50,50);
   font-family: 'Knewave', cursive;
