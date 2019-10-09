@@ -87,12 +87,57 @@ a:hover img {
 .order {
   background-color: rgb(80,80,80);
 }
+.quotes {
+  background-color: rgb(200,200,200);
+}
+.footer {
+  background-color: rgb(50,50,50);
+}
+.footer p {
+  text-align: center;
+  color: rgb(255,255,255);
+}
+.footer nav {
+  display: inline;
+  text-align: center;
+  color: rgb(255,255,255);
+}
 /* CUSTOM MENU CLASSES */
 .pizzamenu {
   padding: 20px;
   float: left;
 }
+.pizzamenu-p {
+  line-height: 30px;
+}
+h2.index-h2 {
+  font-size: 2em;
+  text-align: center;
+}
+h2.index-h2-quotes {
+  text-align: center;
+}
+h3.pizzaHeader-h3 {
+  font-size: 2em;
+  padding-top: 10px;
+  text-align: center;
+}
+h3.menu-h3 {
+  font-size: 1.5em;
+  padding-top: 5px;
+}
+h3.menuHeader-h3 {
+  font-size: 2em;
+  padding-top: 10px;
+  text-align: center;
+}
+p.menuParagraph-p {
+  text-align: center;
+}
 /* /////MODIFIED ZURB CLASSES///// */
+.orbit-caption {
+  text-align: center;
+}
 .title-bar {
   background-color: rgb(50,50,50);
   font-family: 'Knewave', cursive;

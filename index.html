@@ -14,163 +14,179 @@
 </head>
 
 <body>
-<div class="show-for-small-only">
-  <div class="title-bar" data-responsive-toggle="example-animated-menu">
-    <button class="menu-icon" type="button" data-toggle></button>
-    <div class="title-bar-title">Zachary's Chicago Pizza</div>
-  </div>
+  <div class="show-for-small-only">
+    <div class="title-bar" data-responsive-toggle="example-animated-menu">
+      <button class="menu-icon" type="button" data-toggle></button>
+      <div class="title-bar-title">Zachary's Chicago Pizza</div>
+    </div>
 
-  <div class="top-bar" id="example-animated-menu" data-animate="hinge-in-from-top hinge-out-from-top">
-    <div class="top-bar-left">
-      <ul class="dropdown menu" data-dropdown-menu>
-        <li class="menu-text">Zachary's Chicago Pizza</li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="menu.html">Menu</a></li>
-        <li><a href="order.html">Order</a></li>
-      </ul>
+    <div class="top-bar" id="example-animated-menu" data-animate="hinge-in-from-top hinge-out-from-top">
+      <div class="top-bar-left">
+        <ul class="dropdown menu" data-dropdown-menu>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="order.html">Order</a></li>
+        </ul>
+      </div>
     </div>
   </div>
-</div>
 
-<div class="hide-for-small-only">
-  <div class="header">
-    <div class="grid-container" >
-      <header class="grid-x grid-padding-x">
-        <section class="cell medium-3 large-3">
-          <a href="index.html"><h1>Zachary's</h1>
-          <h1 class="small">Chicago Pizza</h1></a>
-        </section>
-        <section class="cell auto"></section>
-        <section class="cell medium-5 large-4">
-          <nav>
+  <div class="hide-for-small-only">
+    <div class="header">
+      <div class="grid-container">
+        <header class="grid-x grid-padding-x">
+          <section class="cell medium-3 large-3">
+            <a href="index.html">
+              <h1>Zachary's</h1>
+              <h1 class="small">Chicago Pizza</h1>
+            </a>
+          </section>
+          <section class="cell auto"></section>
+          <nav class="cell medium-5 large-4">
             <ul>
               <li><a href="about.html">About</a></li>
               <li><a href="menu.html">Menu</a></li>
               <li><a href="order.html" class="order">Order</a></li>
             </ul>
           </nav>
-        </section>
-        <section class="cell medium-3 large-2">
-          <img src="img/facebook.png" alt="" class="socialmedia">
-          <img src="img/twitter.png" alt="" class="socialmedia">
-          <img src="img/instagram.png" alt="" class="socialmedia">
-        </section>
-      </header>
+          <section class="cell medium-3 large-2">
+            <img src="img/facebook.png" alt="" class="socialmedia">
+            <img src="img/twitter.png" alt="" class="socialmedia">
+            <img src="img/instagram.png" alt="" class="socialmedia">
+          </section>
+        </header>
+      </div>
     </div>
   </div>
-</div>
 
-  <!-- <div data-interchange="[partials/header-small.html, small], [partials/header-large.html, medium], [partials/header-large.html, large]"></div> -->
-<!-- ///End of header//// -->
+  <!-- ///End of header//// -->
 
 
-  <div class="grid-container fluid">
-    <div class="grid-x">
-      <div class="cell small-12">
-        <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
-          <div class="orbit-wrapper">
-            <div class="orbit-controls">
-              <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
-              <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
-            </div>
-            <ul class="orbit-container">
-              <li class="is-active orbit-slide">
-                <figure class="orbit-figure">
-                  <img class="orbit-image" src="https://placehold.it/1200x600/999?text=Slide-1" alt="Space">
-                  <figcaption class="orbit-caption">Space, the final frontier.</figcaption>
-                </figure>
-              </li>
-              <li class="orbit-slide">
-                <figure class="orbit-figure">
-                  <img class="orbit-image" src="https://placehold.it/1200x600/888?text=Slide-2" alt="Space">
-                  <figcaption class="orbit-caption">Lets Rocket!</figcaption>
-                </figure>
-              </li>
-              <li class="orbit-slide">
-                <figure class="orbit-figure">
-                  <img class="orbit-image" src="https://placehold.it/1200x600/777?text=Slide-3" alt="Space">
-                  <figcaption class="orbit-caption">Encapsulating</figcaption>
-                </figure>
-              </li>
-              <li class="orbit-slide">
-                <figure class="orbit-figure">
-                  <img class="orbit-image" src="https://placehold.it/1200x600/666&text=Slide-4" alt="Space">
-                  <figcaption class="orbit-caption">Outta This World</figcaption>
-                </figure>
-              </li>
-            </ul>
-          </div>
-          <nav class="orbit-bullets">
-            <button class="is-active" data-slide="0">
-              <span class="show-for-sr">First slide details.</span>
-              <span class="show-for-sr" data-slide-active-label>Current Slide</span>
-            </button>
-            <button data-slide="1"><span class="show-for-sr">Second slide details.</span></button>
-            <button data-slide="2"><span class="show-for-sr">Third slide details.</span></button>
-            <button data-slide="3"><span class="show-for-sr">Fourth slide details.</span></button>
-          </nav>
+
+  <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
+    <div class="orbit-wrapper">
+      <div class="orbit-controls">
+        <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
+        <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
+      </div>
+      <ul class="orbit-container">
+        <li class="is-active orbit-slide">
+          <figure class="orbit-figure">
+            <img class="orbit-image" src="img/PizzaPull.jpg" alt="Pizza Pull">
+            <figcaption class="orbit-caption">A Bay Area Tradition since 1983</figcaption>
+          </figure>
+        </li>
+        <li class="orbit-slide">
+          <figure class="orbit-figure">
+            <img class="orbit-image" src="img/artcontest-2.jpg" alt="Art Contest painting">
+            <figcaption class="orbit-caption">Recipient of over 200 Best Pizza Awards</figcaption>
+          </figure>
+        </li>
+        <li class="orbit-slide">
+          <figure class="orbit-figure">
+            <img class="orbit-image" src="img/PizzaPanArtichokeHero.jpg" alt="Artichoke pan pizza">
+            <figcaption class="orbit-caption">​“The Zachary’s team has captured pizza perfection.” - Diablo Magazine</figcaption>
+          </figure>
+        </li>
+        <li class="orbit-slide">
+          <figure class="orbit-figure">
+            <img class="orbit-image" src="img/artcontest.jpg" alt="Art contest paintings on wall">
+            <figcaption class="orbit-caption">Check out 2019's Art Contest Winners!</figcaption>
+          </figure>
+        </li>
+        <li class="orbit-slide">
+          <figure class="orbit-figure">
+            <img class="orbit-image" src="img/PizzaThinTomBasil.jpg" alt="Italian tomato thin pizza">
+            <figcaption class="orbit-caption">Proudly Employee-Owned since 2003</figcaption>
+          </figure>
+        </li>
+        <li class="orbit-slide">
+          <figure class="orbit-figure">
+            <img class="orbit-image" src="img/SaladsSpinach.jpg" alt="Spinach salad">
+            <figcaption class="orbit-caption">Delivery Now Available!</figcaption>
+          </figure>
+        </li>
+      </ul>
+    </div>
+    <nav class="orbit-bullets">
+      <button class="is-active" data-slide="0">
+        <span class="show-for-sr">A Bay Area Tradition since 1983</span>
+        <span class="show-for-sr" data-slide-active-label>Current Slide</span>
+      </button>
+      <button data-slide="1"><span class="show-for-sr">Recipient of over 200 Best Pizza Awards</span></button>
+      <button data-slide="2"><span class="show-for-sr">“The Zachary’s team has captured pizza perfection.” - Diablo Magazine</span></button>
+      <button data-slide="3"><span class="show-for-sr">Check out 2019's Art Contest Winners!</span></button>
+      <button data-slide="4"><span class="show-for-sr">Proudly Employee-Owned since 2003</span></button>
+      <button data-slide="5"><span class="show-for-sr">Delivery Now Available!</span></button>
+    </nav>
+  </div>
+
+
+  <div class="grid-container">
+    <div class="grid-x grid-padding-x grid-padding-y">
+      <div class="cell small-12 medium-3">
+        <a href="menu.html#stuffed">
+          <img src="img/stuffed-thumb.jpg" alt="stuffed pizza">
+          <h2 class="index-h2">Stuffed Pizza</h2>
+        </a>
+      </div>
+      <div class="cell small-12 medium-3">
+        <a href="menu.html#thin">
+          <img src="img/thin-thumb.jpg" alt="thin pizza">
+          <h2 class="index-h2">Thin Pizza</h2>
+        </a>
+      </div>
+      <div class="cell small-12 medium-3">
+        <a href="menu.html#appetizers">
+          <img src="img/appetizer-thumb.jpg" alt="appetizers">
+          <h2 class="index-h2">Appetizers</h2>
+        </a>
+      </div>
+      <div class="cell small-12 medium-3">
+        <a href="#">
+          <img src="img/oaklandish.jpg" alt="merch">
+          <h2 class="index-h2">Merch</h2>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="quotes">
+    <div class="grid-container">
+      <div class="grid-x grid-padding-x grid-padding-y">
+        <div class="cell">
+          <!-- start slipsum code -->
+
+          <h2 class="index-h2-quotes">Chicago-style Pizza with a California Twist</h2>
+          <p>Zachary's has proudly been serving the Bay Area our signature, hand-crafted pies since 1983, when our doors first opened on College Avenue in Oakland, California. We pride ourselves on using the freshest, highest quality ingredients in our pizzas and providing outstanding service to our loyal customers. When you dine at Zachary's, you're not just supporting a local business, you're supporting an employee-owned restaurant and a fixture of the Bay Area community.</p>
+
+          <!-- end slipsum code -->
         </div>
       </div>
     </div>
   </div>
 
-  <div class="grid-container">
-    <div class="grid-x">
-      <div class="cell">
-        <!-- start slipsum code -->
-
-        <h2>Uuummmm, this is a tasty burger!</h2>
-        <p>Normally, both your asses would be dead as fucking fried chicken, but you happen to pull this shit while I'm in a transitional period so I don't wanna kill you, I wanna help you. But I can't give you this case, it don't belong to me.
-          Besides, I've already been through too much shit this morning over this case to hand it over to your dumb ass. </p>
-
-        <h2>I can do that</h2>
-        <p>Well, the way they make shows is, they make one show. That show's called a pilot. Then they show that show to the people who make shows, and on the strength of that one show they decide if they're going to make more shows. Some pilots get
-          picked and become television programs. Some don't, become nothing. She starred in one of the ones that became nothing. </p>
-
-        <h2>Is she dead, yes or no?</h2>
-        <p>Well, the way they make shows is, they make one show. That show's called a pilot. Then they show that show to the people who make shows, and on the strength of that one show they decide if they're going to make more shows. Some pilots get
-          picked and become television programs. Some don't, become nothing. She starred in one of the ones that became nothing. </p>
-
-        <h2>Is she dead, yes or no?</h2>
-        <p>Well, the way they make shows is, they make one show. That show's called a pilot. Then they show that show to the people who make shows, and on the strength of that one show they decide if they're going to make more shows. Some pilots get
-          picked and become television programs. Some don't, become nothing. She starred in one of the ones that became nothing. </p>
-
-        <h2>No man, I don't eat pork</h2>
-        <p>Do you see any Teletubbies in here? Do you see a slender plastic tag clipped to my shirt with my name printed on it? Do you see a little Asian child with a blank expression on his face sitting outside on a mechanical helicopter that shakes
-          when you put quarters in it? No? Well, that's what you see at a toy store. And you must think you're in a toy store, because you're here shopping for an infant named Jeb. </p>
-
-        <h2>Uuummmm, this is a tasty burger!</h2>
-        <p>Your bones don't break, mine do. That's clear. Your cells react to bacteria and viruses differently than mine. You don't get sick, I do. That's also clear. But for some reason, you and I react the exact same way to water. We swallow it too
-          fast, we choke. We get some in our lungs, we drown. However unreal it may seem, we are connected, you and I. We're on the same curve, just on opposite ends. </p>
-
-        <h2>I can do that</h2>
-        <p>Now that there is the Tec-9, a crappy spray gun from South Miami. This gun is advertised as the most popular gun in American crime. Do you believe that shit? It actually says that in the little book that comes with it: the most popular gun
-          in American crime. Like they're actually proud of that shit. </p>
-
-        <h2>No man, I don't eat pork</h2>
-        <p>Do you see any Teletubbies in here? Do you see a slender plastic tag clipped to my shirt with my name printed on it? Do you see a little Asian child with a blank expression on his face sitting outside on a mechanical helicopter that shakes
-          when you put quarters in it? No? Well, that's what you see at a toy store. And you must think you're in a toy store, because you're here shopping for an infant named Jeb. </p>
-
-        <h2>I'm serious as a heart attack</h2>
-        <p>Your bones don't break, mine do. That's clear. Your cells react to bacteria and viruses differently than mine. You don't get sick, I do. That's also clear. But for some reason, you and I react the exact same way to water. We swallow it too
-          fast, we choke. We get some in our lungs, we drown. However unreal it may seem, we are connected, you and I. We're on the same curve, just on opposite ends. </p>
-
-        <h2>No, motherfucker</h2>
-        <p>Well, the way they make shows is, they make one show. That show's called a pilot. Then they show that show to the people who make shows, and on the strength of that one show they decide if they're going to make more shows. Some pilots get
-          picked and become television programs. Some don't, become nothing. She starred in one of the ones that became nothing. </p>
-
-        <!-- end slipsum code -->
-      </div>
+  <!-- ///Beginning of footer code to copy into each page/// -->
+  <div class="footer">
+    <div class="grid-container">
+      <footer class="grid-x grid-padding-x grid-padding-y">
+        <div class="cell small-12">
+          <nav>
+            <ul>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Employment</a></li>
+              <li><a href="#">Fundraising</a></li>
+              <li><a href="#">Art</a></li>
+              <li><a href="#">Store</a></li>
+              <li><a href="#">FAQ</a></li>
+            </ul>
+          </nav>
+          <p class="copyright">&#169; 2019 Zachary's Chicago Pizza, Inc.</p>
+        </div>
+      </footer>
     </div>
-  </div>
-
-<!-- ///Beginning of footer code to copy into each page/// -->
-  <div class="grid-container">
-    <footer class="grid-x grid-padding-x grid-padding-y">
-      <div class="cell small-12">
-        <p class="copyright">&#169; 2019 Zachary's Chicago Pizza, Inc.</p>
-      </div>
-    </footer>
   </div>
 
   <script src="js/vendor/jquery.js"></script>
