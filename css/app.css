@@ -178,5 +178,8 @@ hr {
 
 .p-about {
   font-family: 'lato';
-  font-size: 30px;
+  font-size: 1.5em;
+}
+img.img-about {
+  padding: 20px 0 20px;
 }
