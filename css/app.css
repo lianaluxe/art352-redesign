@@ -86,7 +86,7 @@ a:hover img {
   display: inline;
 }
 .order {
-  background-color: rgb(80,80,80);
+  border: 2px solid #FFFFFF;
 }
 .quotes {
   background-color: rgb(200,200,200);
