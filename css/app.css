@@ -2,7 +2,8 @@
 body {
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 300;
-  color: rgb(50, 50, 50);
+  color: #ffffff;
+  background-color: #FEF2E4;
 }
 h1, h2 {
   font-family: 'Knewave', cursive;
@@ -16,13 +17,13 @@ h1 {
   margin-top: 10px;
   line-height: 1em;
   font-size: 2em;
-  color: rgb(255, 255, 255);
+  color: white;
 }
 h1.small {
   margin-top: 0;
   margin-bottom: 10px;
   font-size: 1.2em;
-  color: rgb(255, 255, 255);
+  color: #ffffff;
 }
 h2 {
   font-size: 3em;
@@ -47,7 +48,7 @@ a:hover {
 }
 /* ///// NAV STYLES ///// */
 .header {
-  background-color: rgb(50,50,50);
+  background-color: #B51D0A;
 }
 nav {
   text-align: center;
@@ -68,6 +69,7 @@ nav a:link, nav a:visited {
 }
 nav a:hover {
   text-decoration: underline;
+  color: #ead39c;
 }
 nav a.current {
   text-decoration: underline;
@@ -111,6 +113,19 @@ h3.menuHeader-h3 {
 }
 p.menuParagraph-p {
   text-align: center;
+}
+.background {
+  background-color: #F4EADE;
+}
+hr {
+    display: block;
+    margin-before: 0.5em;
+    margin-after: 0.5em;
+    margin-start: auto;
+    margin-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
 }
 /* /////MODIFIED ZURB CLASSES///// */
 .title-bar {

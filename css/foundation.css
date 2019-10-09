@@ -5182,16 +5182,17 @@ table.hover:not(.unstriped) tr:nth-of-type(even):hover {
     display: block;
     padding: 1.25rem 1.5rem;
     font-size: 1.6rem;
+    font-weight: bolder;
     line-height: 1;
     color: #1779ba; }
     [data-whatinput='mouse'] .tabs-title > a {
       outline: 0; }
     .tabs-title > a:hover {
       background: #fefefe;
-      color: #1468a0; }
+      color: #1468a0;}
     .tabs-title > a:focus, .tabs-title > a[aria-selected='true'] {
       background: #e6e6e6;
-      color: #1779ba; }
+      color: #1779ba;}
 
 .tabs-content {
   border: 1px solid #e6e6e6;
