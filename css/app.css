@@ -45,6 +45,7 @@ a:link, a:visited {
 a:hover {
   text-decoration: underline;
 }
+
 /* ///// NAV STYLES ///// */
 .header {
   background-color: #6a1a15;
@@ -67,11 +68,8 @@ nav a:link, nav a:visited {
   padding: 4px 18px;
 }
 nav a:hover {
-  text-decoration: underline;
   color: #ead39c;
-}
-nav a.current {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 a img {
@@ -87,6 +85,9 @@ a:hover img {
 }
 .order {
   border: 2px solid #FFFFFF;
+}
+.order:hover {
+  border: 2px solid #ead39c;
 }
 .quotes {
   background-color: rgba(251,151,87,0.4);
@@ -179,4 +180,10 @@ h2.h2-about {
 .p-about {
   font-family: 'lato';
   font-size: 1.3em;
+}
+.index-h1:hover {
+  text-decoration: none;
+}
+.index-h1:hover {
+  color: #ead39c;
 }
