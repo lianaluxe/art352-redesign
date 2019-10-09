@@ -90,6 +90,18 @@ a:hover img {
 .quotes {
   background-color: rgb(200,200,200);
 }
+.footer {
+  background-color: rgb(50,50,50);
+}
+.footer p {
+  text-align: center;
+  color: rgb(255,255,255);
+}
+.footer nav {
+  display: inline;
+  text-align: center;
+  color: rgb(255,255,255);
+}
 /* CUSTOM MENU CLASSES */
 .pizzamenu {
   padding: 20px;
@@ -100,6 +112,9 @@ a:hover img {
 }
 h2.index-h2 {
   font-size: 2em;
+  text-align: center;
+}
+h2.index-h2-quotes {
   text-align: center;
 }
 h3.pizzaHeader-h3 {
