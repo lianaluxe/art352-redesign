@@ -89,6 +89,21 @@ a:hover img {
 .order {
   background-color: rgb(80,80,80);
 }
+.quotes {
+  background-color: rgb(200,200,200);
+}
+.footer {
+  background-color: rgb(50,50,50);
+}
+.footer p {
+  text-align: center;
+  color: rgb(255,255,255);
+}
+.footer nav {
+  display: inline;
+  text-align: center;
+  color: rgb(255,255,255);
+}
 /* CUSTOM MENU CLASSES */
 .pizzamenu {
   padding: 20px;
@@ -96,6 +111,13 @@ a:hover img {
 }
 .pizzamenu-p {
   line-height: 30px;
+}
+h2.index-h2 {
+  font-size: 2em;
+  text-align: center;
+}
+h2.index-h2-quotes {
+  text-align: center;
 }
 h3.pizzaHeader-h3 {
   font-size: 2em;
@@ -128,12 +150,17 @@ hr {
     border-width: 1px;
 }
 /* /////MODIFIED ZURB CLASSES///// */
+.orbit-caption {
+  text-align: center;
+}
 .title-bar {
   background-color: rgb(50,50,50);
   font-family: 'Knewave', cursive;
   font-size: 1.6em;
 }
-.tabs {
-  font-size: 2em;
+
+h2.about {
+  color: yellow;
+  margin: auto;
+  width: 50%;
 }
-$tab-item-font-size: 2em;
