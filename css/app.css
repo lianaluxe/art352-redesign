@@ -92,9 +92,25 @@ a:hover img {
   padding: 20px;
   float: left;
 }
+.pizzamenu-p {
+  line-height: 30px;
+}
+h3.pizzaHeader-h3 {
+  font-size: 2em;
+  padding-top: 10px;
+  text-align: center;
+}
 h3.menu-h3 {
   font-size: 1.5em;
   padding-top: 5px;
+}
+h3.menuHeader-h3 {
+  font-size: 2em;
+  padding-top: 10px;
+  text-align: center;
+}
+p.menuParagraph-p {
+  text-align: center;
 }
 /* /////MODIFIED ZURB CLASSES///// */
 .title-bar {
@@ -105,3 +121,4 @@ h3.menu-h3 {
 .tabs {
   font-size: 2em;
 }
+$tab-item-font-size: 2em;
