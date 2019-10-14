@@ -187,3 +187,12 @@ h2.h2-about {
 .locations {
   text-align: center;
 }
+
+.button.default.large {
+  background-color: rgba(251,151,87,.7);
+  color: rgb(50,50,50);
+}
+
+.button.default.large:hover {
+  background-color: rgba(251,151,87,1);
+}
