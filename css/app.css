@@ -108,6 +108,10 @@ a:hover img {
   font-family: 'Josefin Sans', sans-serif;
   text-transform: none;
 }
+@media only screen and (max-width: 640px) {
+  .footer nav li {
+    display: block;
+  }
 /* CUSTOM MENU CLASSES */
 .pizzamenu {
   padding: 20px;
